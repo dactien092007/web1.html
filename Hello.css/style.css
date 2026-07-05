@@ -5,6 +5,13 @@ body{
 header{
     background-color:#f8c8dc;
 }
+header {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #f8c8dc;
+    padding: 10px;
+}
+
 nav{
     background-color:#d8bfd8;
 }
@@ -21,7 +28,7 @@ li{
 }
 h1{
     text-align:center;
-    font-family:Georgia, serif;
+    font-family:, serif;
     color:purple;
 }
 p{
@@ -34,14 +41,7 @@ div{
     gap:10px;
 }
 
-header {
-    width: 100%;
-    box-sizing: border-box;
-    background-color: #f8c8dc;
-    padding: 10px;
-}
-
-.footer {
+footer {
     width: 100%;
     background-color: #e6ccff;
     padding: 10px;
